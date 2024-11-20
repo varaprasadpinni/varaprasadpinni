@@ -1,5 +1,8 @@
 
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
+import { ImVideoCamera } from "react-icons/im";
+//import { FaUmbrellaBeach } from "react-icons/fa6";
+import { MdCameraFront } from "react-icons/md";
 import {
   GiBarn,
   GiBoatFishing,
@@ -43,6 +46,7 @@ import {
   GiToaster,
   GiCampfire,
 } from "react-icons/gi";
+
 import { AiFillCar } from "react-icons/ai";
 import { TbPhotoStar } from "react-icons/tb";
 import { TbCameraSelfie } from "react-icons/tb";
@@ -174,32 +178,32 @@ export const types = [
 
 export const facilities = [
   {
-    name: "Bath tub",
-    icon: <PiBathtubFill />,
+    name: "HD Cameras",
+    icon: <ImVideoCamera />,
   },
   {
-    name: "Personal care products",
+    name: "Tripods",
     icon: <FaPumpSoap />,
   },
   {
-    name: "Outdoor shower",
+    name: "Lighting Equipment Soft-boxes",
     icon: <FaShower />,
   },
   {
-    name: "Washer",
+    name: "RingLights,Reflectors",
     icon: <BiSolidWasher />,
   },
   {
-    name: "Dryer",
+    name: "Gimbals",
     icon: <BiSolidDryer />,
   },
   {
-    name: "Hangers",
+    name: "Stabilizers",
     icon: <PiCoatHangerFill />,
   },
   {
-    name: "Iron",
-    icon: <TbIroning3 />,
+    name: "Small Photo Prints",
+    icon: <MdCameraFront />,
   },
   {
     name: "TV",
@@ -266,19 +270,19 @@ export const facilities = [
     icon: <GiCampfire />,
   },
   {
-    name: "Garden",
+    name: "Camera @ Lens",
     icon: <MdYard />,
   },
   {
-    name: "Free parking",
+    name: "Snacks @ Drinks",
     icon: <AiFillCar />,
   },
   {
-    name: "Self check-in",
-    icon: <FaKey />
+    name: "Umbrellas or Covers",
+    icon: <FaUmbrellaBeach />
   },
   {
-    name: " Pet allowed",
+    name: " For fun immediate prints",
     icon: <MdPets />
   }
 ];

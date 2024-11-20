@@ -63,10 +63,10 @@ const Navbar = () => {
             )}
             {dropdownMenu && user && (
                 <div className='navbar_right_accountmenu'>
-                    <Link to="">Trip List</Link>
-                    <Link to="">Wish List</Link>
+                    <Link to="">Your List</Link>
+                    <Link to="">Favorite List</Link>
                     <Link to="">Property List</Link>
-                    <Link to="">Reservation List</Link>
+                    <Link to="">Res List</Link>
                     <Link to="">Became A Host</Link>
 
                     <Link to="/login" onClick={() =>{

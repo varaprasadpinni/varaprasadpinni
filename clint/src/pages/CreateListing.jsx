@@ -168,7 +168,7 @@ const CreateListing = () => {
                     ))}
 
                 </div>
-                <h3>What type of equipment will you provide to customer?</h3>
+                <h3>What type of equipment will you provide to customer?(Optional)</h3>
                 <div className='type-list'>
                     {types?.map((item, index) => (
                         <div className={`type ${type === item.name ? "selected" : ""}`} key={index} onClick={() => setType(item.name)}>
@@ -216,10 +216,12 @@ const CreateListing = () => {
 
                 </div>
 
-                <h3>Share some basics about your place</h3>
+                <h3>Share some basics that you provide to clients.</h3>
                 <div className='basics'>
                     <div className='basic'>
-                        <p>Guests</p>
+                        <p>
+                            DroneShots
+                        </p>
                         <div className='basic_count'>
                             <RemoveCircleOutline onClick ={() => {
                                 guestCount > 0 && setGuestCount(guestCount - 1)
@@ -233,7 +235,7 @@ const CreateListing = () => {
                     </div>    
 
                     <div className='basic'>
-                        <p>beds</p>
+                        <p>Albums</p>
                         <div className='basic_count'>
                             <RemoveCircleOutline onClick={() =>{
                                 bedCount > 0 && setBedCount(bedCount - 1)
@@ -247,7 +249,7 @@ const CreateListing = () => {
                     
                     </div>
                     <div className='basic'>
-                        <p>Bathrooms</p>
+                        <p>PhotoFrames</p>
                         <div className='basic_count'>
                             <RemoveCircleOutline onClick= {() =>{
                                 bathroomCount > 0 && setBathroomCount(bathroomCount -1)

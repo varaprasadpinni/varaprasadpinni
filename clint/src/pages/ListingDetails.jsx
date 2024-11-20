@@ -172,8 +172,8 @@ const ListingDetails = () => {
           {listing.country}
         </h2>
         <p>
-          {listing.guestCount} guests - {listing.bedroomCount} bedroom(s) -{" "}
-          {listing.bedCount} bed(s) - {listing.bathroomCount} bathroom(s)
+          {listing.guestCount} DroneShot(s) - {listing.bedroomCount} Album(s) -{" "}
+          {listing.bedCount} PhotoFrame(s) - {listing.bathroomCount} ***(s)
         </p>
         <hr />
 
